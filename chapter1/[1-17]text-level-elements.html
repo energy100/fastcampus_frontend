@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML 텍스트 레벨(Text Level) 요소들</title>
+  <style>
+    .hidden-text {
+      overflow: hidden;
+      position: absolute;
+      clip:     rect(0,0,0,0);
+      width:    1px;
+      height:   1px;
+      margin:   -1px;
+      border:   0;
+      padding:  0;
+    }
+  </style>
+</head>
+<!--
+
+  <sup> 요소
+    - 윗첨자
+
+  <sub> 요소
+    - 아래첨자
+
+  <mark> 요소
+    - 관련 참조 목적의 하이라이트된 글자 요소(검색할때)
+
+  <abbr> 요소
+    - 축약 요소
+
+  <time> 요소
+    - 기계가 이해할 수 있는 형태로 날짜나 시간을 나타내는 요소
+
+  <s> 요소
+    - 더 이상 관련이 없거나 더 이상 정확하지 않은 요소
+
+-->
+
+
+<!-- sub, sup -->
+<h2>아래첨자</h2>
+
+<p>아래, 다른 글자의 오른쪽에 놓이는 작은 글자. 대부분 화학식이나 수학식에 사용된다.</p>
+<dfn id="sulfuric-acid">
+  H<sub>2</sub>SO<sub>5</sub>
+</dfn>
+
+
+<div>
+  <blockquote cite="https://ko.wiki...">
+    <p>
+      황산은 강산성의 액체 화합물이다. 중국과 일본에서는 유황의 산이라 하여 硫酸이라고 하며, 북한에서도 류산이라고 한다. 우리나라에서도 유산이라는 말을 쓰기도 하지만 젖산을 뜻하는 유산과 착각할 수 있으므로 황산을 사용한다. 물을 제외하고는 가장 많이 제조되며, 많은 곳에 사용된다. 2001년의 세계 황산 생산량은 1억 65백만 톤에 달한다. 비료 제조, 광석 처리, 폐수 처리, 석유 정제 등에 사용된다.
+      <cite>위키백과에서</cite>
+    </p>
+  </blockquote>
+</div>
+
+<div>
+  <h2>윗첨자</h2>
+  <p>
+    다른 글자의 오른쪽 위에 놓이는 작은 글자. 때때로 약어에서,
+    그리고 각주<sup><a id="footnote-o-1" href="#footnote-1">[1]</a></sup>를 나타낼 때도 사용된다.
+  </p>
+</div>
+
+<!-- mark, time -->
+
+<div>
+  <h2>2장. - 최적의 각도를 찾아라</h2>
+  <img src="imgimages/pyramid.png" alt="">
+   <p>
+    내용은 다음과 같습니다. -고대 이집트인들은 시키드(seked)라는 특별한 각도를 사용했다. -시키드는 현대 <mark>삼각함수</mark>의 코탄젠트(cotangent)와 그 값이 같다. <mark>삼각함수</mark>와 코탄젠트라는 단어에 멈칫했을 수도 있지만, 이것을...
+  </p>
+  <span class="article_share">공유</span> <data value="0">0</data> &middot;
+  <span class="article_comment">댓글</span> <data value="0">0</data> &middot;
+  <cite><time datetime="2018-02-22">Feb 22. 2018</time>  by sortie</cite>
+</div>
+
+<!-- abbr, time -->
+
+<article>
+  <h2>일본만 팔던 <abbr title="맥도날드">맥날</abbr>초콜릿 파이.. 오늘부터 한국서 판매</h2>
+  <p>
+    뉴스팀 입력 <time datetime="2017-08-14T10:18">2017.08.14 10:18</time>
+    <span class="article_comment">댓글 <data value="0">0</data>개</span>
+  </p>
+  <img src="images/macdonald.jpg" alt="">
+</article>
+
+<!-- s, time -->
+<ul>
+  <li>
+    <img src="images/cable-holder.jpg" alt="">
+    <h3>
+      <span class="sub-headline">마그네틱 자석 선정리 케이블홀더</span>
+      [슈퍼특가] 자석식 선정리기 케이블 홀더
+    </h3>
+
+    <p>
+      <span class="hidden-text">원래가격</span> <s>11,900원</s> 
+      <em>50%</em> <span class="hidden-text">할인</span>원
+    </p>
+
+    <p>
+      <time datetime="2018-08-01">오늘</time>마감 <data value="7">7</data> 구매
+    </p>
+  </li>
+</ul>
+
+    <!-- 수평선: horizontal rule -->
+<hr>
+
+<!-- 각주: footnote -->
+<div id="footnote-1"><a href="#footnote-o-1">[1]</a>< 각주(脚註, 영어: note)는 본문에 대한 참조 문헌이나 본문의 낱말, 문장 등의 뜻을 알기 쉽게 풀이하는 덧붙이는 글이다.</div>
+
+</body>
+</html>
