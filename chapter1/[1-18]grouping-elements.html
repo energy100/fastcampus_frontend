@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML 그룹핑(Grouping) 요소들</title>
+</head>
+<body>
+
+  <!--
+    <main> 요소
+    <div> 요소
+    <blockquote> 요소
+    <p> 요소
+    <ul> 요소
+    <ol> 요소
+    <li> 요소
+    <dl> 요소
+    <dt> 요소
+    <dd> 요소
+    <figure> 요소
+    <figcaption> 요소
+    <hr> 요소
+    <address> 요소
+    <pre> 요소
+  -->
+
+  <!-- address -->
+<address>
+	서울특별시 강남구 삼성로 648 SM ENTERTAINMENT
+ 	Communication Center 대표전화 <a href="tel:+820262409800">02 6240 9800</a>
+ 	대표 : 한세민, 남소영 사업자번호 <a href="https://goo.gl/XqFuCC" target="_blank">114 81 63109</a>
+ 	<small>Copyright&copy;2013 SM ENTERTAINMENT Co., Ltd. ©All rights reserved.</small>
+ </address>
+
+  <!-- 아스키(ASCII) 코드 -->
+<pre>
+____  ∧ ∧
+   |＼ /(´～`)＼&rt;변화구
+   |　|￣￣￣￣￣|
+   |　|＝みかん＝|
+ ＼|＿＿＿＿＿|
+</pre>
+
+
+  <!-- JavaScript 컴퓨터 프로그래밍 코드 -->
+  <p>다음은 패널(Panel) 생성자 함수(Constructor Function) 입니다.</p>
+
+
+<pre>
+<code>
+function Panel(element, canClose, closeHandler) {
+  this.element = element;
+  this.canClose = canClose;
+  this.closeHandler = function () { if (closeHandler) closeHandler() };
+}
+</code>
+</pre>
+</body>
+</html>
