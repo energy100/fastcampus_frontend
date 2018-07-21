@@ -7,59 +7,55 @@
 <body>
 
 <form action="/" method="get">
+<fieldset>
+  <p>
+    <label for="user_name">이름 : </label>
+    <input id = "user_name" type="text" maxlength="4" required>
+    
+  </p>
+  
+  <p>
+    <label for="user_pass">비밀번호 : </label>
+    <input type="password" id ="user_pass" required>
+  </p>
+</fieldset>
+  <p>
+    <label for=" "><input type="radio" name="user_sex" value="1"> 남성</label>
+    <label for=" "><input type="radio" name="user_sex" value="2" ckecked> 여성</label>
+     <!-- name값 같아야해 -->
 
-<p>
-  <label for="user_name">이름</label>
-  <input id="user_name" type="text" placeholder="민동규" maxlength="4" minlength="2" required>
-</p>
+  </p>
 
+  <p>
+    <input type="file" name="user_data">
+  </p>
+  <input type="submit"> 전송 
 
-<p>
-  <label for="user_pass">비밀번호</label>
-  <input type="password" id="user_pass" required="true">
-</p>
-
-<p>
-  <label for="">
-    <input type="radio" name="user_gender" value="1"> 남성
-  </label>
-
-  <label for="">
-    <input type="radio" name="user_gender" value="2"> 여성
-  </label>
-</p>
-
-<p>
-  <input list="mail" name="user_email" id="user_email">
-  <datalist id="mail">
-    <option value="naver.com"></option>
-    <option value="google.com"></option>
-    <option value="hanmail.net"></option>
-
-  </datalist>
-</p>
-
-
-<p>
-  <label for="">
-    <input type="checkbox"> 모든 내용에 동의하십니까?
-  </label>
-</p>
-
-<p>
-  <label for="">
-    <input type="file" name="user_data_upload" id="user_data_upload">
-  </label>
-</p> 
-
-<input type="submit" value="전송">
-<input type="button" value="버튼">
-
-
-    <button type="submit">전송</button>
-
+  <p>
+    <label>웹사이트 :     <input list="url_ex" id="url_ex" type="url" name="url_ex">    </label>
+    <datalist id="url_ex">
+      <option value="http://www.naver.com">naver</option>
+      <option value="http://www.google.com">google</option>
+    </datalist>
+  </p>  
 </form>
 
+
+<p>
+  <label for="user_hobby">
+    <select name="user_hobby" id="user_hobby">
+       <option value="0">없음</option>
+      <optgroup label="운동시">
+       <option value="1">축구</option>
+       <option value="2">농구</option>
+      </optgroup>
+      
+       <option value="3">독서</option>
+       <option value="4">영화</option>
+    </select>
+  </label>
+
+</p>
 
 <!--
 
