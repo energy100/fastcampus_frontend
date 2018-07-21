@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+img{
+	display: block;
+
+}
+
+.up-back{
+	width: 1400px;
+	height: 460px;
+	background-image: url("../images/header.png");
+	background-repeat: no-repeat;
+	
+}
+
+.second-back{
+	width: 1400px;
+	height: 1751px;
+	background-color: #2d2c31;
+}
+
+.third-back{
+	width: 1400px;
+	height: 1877px;
+	background-color: #aeaeb8;
+}
+
+
+.main-images{
+	width: 1198px;
+	height: 1198px;
+	padding : 342px 141px;
+}
+
+/*main image 내에서 밑 상세 사진까지의 margin을 만들기 위한 div*/
+.tooth-zoom{
+	margin : 190px 0 0 0;
+}
+

@@ -1,0 +1,65 @@
+/*
+  ------------------------------------------------
+  CSS 배경(Background) 스타일링
+  ------------------------------------------------
+*/
+
+body {
+	/*background-image: url("../images/cloud-design-patterns.svg");
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 10px 40px;
+	background-attachment: fixed;*/
+	background:
+		no-repeat
+		url("../images/cloud-design-patterns.svg")
+		fixed
+		10px 40px;
+	background-size: 100px 100px;
+}
+
+#css-background {
+	margin-left: 70px;
+
+}
+
+.bg-image {
+	background: 
+	url("../images/Newyork-US.jpg")
+	no-repeat
+	center
+	;
+	background-size: cover;
+}
+
+.is-floral {
+	background :
+		#000
+		url("../images/oriental-floral-pattern.svg")
+		center
+		;
+	background-size: 100px;
+
+}
+
+.is-model {
+	background :
+		center;
+	background-size: 100px;
+
+}
+
+.background-clip {
+	box-sizing: border-box;
+	padding:20px;
+	border : 20px solid rgba(0, 0, 0, 0, 2);
+	background :
+		url("../images/model.jpg")
+			center;
+	background-size : contain;
+/*	background-clip: content-box;
+	클립은 클리핑 영억을 정할때 쓰는거
+	오리진은 어떻게 시작하는지 쓰는거, 이걸로 크기조절가능
+*/
+	background-origin : border-box;
+}

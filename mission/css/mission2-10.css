@@ -1,0 +1,244 @@
+p{
+	margin-bottom: 0;
+}
+
+img { display: inline-block; }
+
+.box{
+}
+/*
+.header{
+	margin: 40px 130px;
+	position: relative;
+	}
+*/
+.logo{position : absolute; left : 50%; transform: translateX(-50%); font-size: }
+
+.header-right-top{float: right; }
+
+.en-select{
+
+}
+.usd-select{
+	margin-left: 20px;
+}
+.lock{
+	margin: 0px 30px;
+}
+
+span,li img{
+	margin-top: -3px;
+}
+
+.nav{
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 11px;
+	letter-spacing: 2.4px;
+}
+
+ul{
+	padding: 0;
+}
+
+.carousel{
+	height: 580px;
+	background-image: url(../images/arbuzz-assets/header/woman.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.carousel .carousel-main{
+	font-size: 112px;
+	position: absolute;
+	top: 230px;
+	left: 130px;
+	font-weight: 500px;
+	letter-spacing: 0.13em;
+
+}
+
+.carousel .carousel-sub{
+	font-size: 30px;
+	font-family: serif;
+	font-style: italic;
+	color: #afb0b5;
+	position: absolute;
+	top: 370px;
+	left: 220px;
+	letter-spacing: 0.35em;
+}
+
+
+
+.banner{
+	padding: 40px 130px;
+	background-color: #e5e5e5;
+}
+
+.shoes, .bags, .collection, .woman{
+	margin: 0 20px 20px 0;
+	display: inline-block;
+}
+
+.banner .woman{
+	float: right;
+	margin: 0px;
+}
+
+.menu{
+	height: 40px;
+	background-color: white;
+	border-radius: 5px;
+	position: relative;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.flowy, .fitted, .fluted, .textured{
+	margin: 0 20px 20px 0;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.products .textured{
+	margin-right: 0;
+}
+
+.product_info{
+	height: 90px;
+	background-color: white;
+}
+
+
+.center{
+    display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+ul li a:hover {
+	background-color: yellow;
+	background-image: url(../images/arbuzz-assets/header/icon-Arrow.png);
+	background-position: top;
+	background: no-repeat;}
+
+.about_us{
+	background-color: white;
+	border-radius: 5px;
+	padding : 30px 0;
+	text-align: center;
+}
+
+.about_title{
+	padding: 40px 0 20px 0;
+	text-align: center;
+}
+
+.about_contents{
+	text-align: center;
+	display: inline-block;
+	padding: 0 40px 20px 40px;
+}
+
+
+
+
+.read_more{
+	padding: 5px 25px;
+	text-align: center;
+	padding-top: 5px;
+	border: 3px #e36556 solid;
+	color: #e36556;
+	display: inline-block;
+
+}
+
+
+.square_box{
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.techno{
+	margin-right: 20px;
+	float: left;
+}
+
+.life{
+	background-image: url(../images/arbuzz-assets/blog/life.jpg);
+	margin-right: 20px;
+	float: left;
+	color: white;
+
+}
+
+.travel{
+	background-image: url(../images/arbuzz-assets/blog/travel.jpg);
+	color: white;
+}
+
+.footer{
+	height: 400px;
+	background-color: white;
+	margin: 50px 130px 0 130px; 
+}
+
+
+
+.real_foot{
+	padding: 0 130px;
+    border-top: 1px solid #dddddd;
+    background-color: #f9f9f9;
+    height : 68px;
+}
+
+.real_foot img{
+    margin: 20px 30px 0 0;
+}
+
+.footer ul li{
+	color: #5b5d69;
+}
+
+.men, .women, .kids{
+	display: inline-block;
+	margin-right: 100px;
+	vertical-align: top;
+}
+
+.men li, .women li, .kids li{
+	display: block;
+	margin-bottom: 10px;
+	padding-left: 0;
+}
+
+
+.follow_discribe{
+	display: inline-block;
+}
+
+.follow_discribe img{
+	margin-right : 10px;
+	margin-bottom: 40px;
+}
+
+.send{
+	width: 43px;
+	height: 43px;
+	background-color: #e36556;
+}
+
+

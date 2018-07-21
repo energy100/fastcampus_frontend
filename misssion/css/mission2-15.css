@@ -1,0 +1,35 @@
+.grid{
+	display: grid;
+	grid-template-rows: repeat(4, 166px);
+	grid-template-columns: repeat(4, 203px);
+	grid-gap: 14px 16px;
+}
+
+.item-2{
+	g
+}
+
+.item {
+  border: 0.4rem solid currentcolor;
+  border-radius: 0.4rem;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  color: #3573f9;
+  transition: all 0.3s ease;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+body *,
+body *::before,
+body *::after {
+  box-sizing: border-box;
+}

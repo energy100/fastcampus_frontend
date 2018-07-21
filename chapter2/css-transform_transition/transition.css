@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.sonic-adventure {
+  position: relative;
+  background: #ffff00;
+  height: inherit;
+}
+
+/* 
+2D 트랜스폼(Transform)
+
+  // 회전
+    rotateX(angle)
+    rotateY(angle)
+    rotate(angle) 
+  // 크기
+    scaleX()
+    scaleY()
+    scale(x, y)
+  // 이동
+    translateX()
+    translateY()
+    translate(x, y)
+  // 비틈
+    skewX()
+    skewY()
+    skew(x, y)
+
+*/
+
+.headline {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -156px;
+}
+
+.sonic-adventure:hover .headline {
+  top: 200px;
+  transform: rotate(10deg);
+  transition : all 0.8s ease-in-out 0.3s;
+
+}
+
+.sonic {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  margin-left: -136.5px;
+  transform: scale(0.9) translate(40px, -70px) rotate(8deg);
+}
+
+.desc {
+  position: absolute;
+  top : 400px;
+  left: 50%;
+  width: 280px;
+  margin-left: -300px;
+  transform: translate(130px, -190px);
+  transform: rotate(280deg);
+  text-align: right;
+  color: #005baa;
+}

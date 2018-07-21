@@ -1,0 +1,294 @@
+p, figure{
+	margin: 0;
+	display: inline-block;
+}
+
+.background{
+	background-color: #e5e5e5;
+}
+
+.container{
+	padding: 0 120px;
+}
+
+
+/********************기본속성**********************/
+
+.vertical-middle{
+	vertical-align: middle;
+}
+
+.icon-20px{
+	height: 20px;
+}
+
+.icon-4px{
+	height: 4px;
+}
+
+.icon-7px{
+	height: 7px;
+}
+
+.icon-11px{
+	height: 11px;
+}
+
+
+/***********************메뉴*********************/
+
+
+.menu{
+
+	height: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+}
+
+.header-left-wrap{
+	display: inline-block;
+}
+
+
+.header-left-wrap figure, .header-right-wrap figure{
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+
+.header-left-wrap p{
+	display: inline-block;
+}
+
+.header-left-wrap .text-wrap{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.header-right-wrap{
+	float: right;
+	width: 230px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.header-right-wrap p, .header-right-wrap img{
+	vertical-align: middle;
+}
+
+.header-right-wrap div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo{
+	position: absolute;
+	left : 50%; transform: translateX(-50%);
+}
+
+
+/***********************네비게이션*********************/
+
+.navigation{
+	padding-top:30px;
+	padding-bottom: 30px;
+}
+
+.navigation li{
+	list-style: none;
+}
+
+.navigation li p, .navigation li figure{
+	vertical-align: middle;
+}
+
+.navigation li figure{
+	height: 20px;
+	line-height: 20px;
+}
+
+.navigation li figure img{
+	vertical-align: middle;
+}
+
+
+.navigation ul{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+/***********************메인배너*********************/
+
+.carousel{
+	position: relative;
+}
+.carousel img{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel .button-box{
+	position: absolute;
+	bottom: 20px;
+	left : 50%; transform: translateX(-50%);
+	display: flex;
+	width: 110px;
+	justify-content: space-around;
+
+}
+
+.buttonbox .figure{
+	height: 20px;
+	line-height: 20px;
+}
+
+/***********************제품카테고*********************/
+
+.banners{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3. 1fr);
+	grid-template-rows: 1fr 1fr;
+	padding-bottom: 20px;
+
+}
+
+.shoes{ grid-area: 1 / 1 / span 1 / span 1; position: relative; }
+.leather-bags{ grid-area: 1 / 2 / span 1 / span 1; position: relative; }
+.collection { grid-area: 2 / 1 / span 1 / span 2; position: relative; }
+.woman { grid-area: 1 / 3 / span 2 / span 1; position: relative; }
+
+.banners img{
+	width: 100%;
+	height: 100%;
+	overflow : hidden;	
+	border-radius: 3px;
+}
+
+.banner-wrap{
+	width: 100%;
+	height : 35%;
+	position : absolute;
+	bottom: 0;
+	z-index: 1;
+	text-align: center;
+
+}
+
+.banner-text-wrap{
+	vertical-align: middle;
+	display: inline-block;
+	width: 100%;
+	}
+
+.banner-text-wrap p {
+	width: 100%;
+	text-align: center;
+}
+
+.align-helper{
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.leather-bags .banner-wrap{
+	top: 15%;
+	left: 15%;
+	text-align: left;
+}
+
+
+.woman .banner-wrap{
+	height: 130px;
+	top: 50%; transform: translateY(-50%);
+}
+
+.red-button{
+	margin-top: 20px;
+	width: 170px;
+	height: 45px;
+	border-radius: 3px;
+	background-color: #e36556;
+	text-align: center;
+	display: inline-block;
+	line-height: 45px;
+}
+
+.collection .banner-wrap{
+	width: 50%;
+	right: 0;
+	top: 50%; transform: translateY(-50%);
+}
+
+/**********************탭*********************/
+
+.tabs{
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	margin-bottom: 20px;
+	display: flex;
+	text-align: center;
+	border-radius: 3px;
+}
+
+
+.tabs ul{
+	width: 100%;
+	margin: 0 15%;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	vertical-align: middle;
+}
+
+.tabs li{
+	list-style: none;
+	vertical-align: middle;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	text-align: center;
+}
+
+.selected-box{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background-color: #e36556;
+	display: inline-block;
+}
+
+
+/**********************상품*********************/
+
+.products{
+	margin:  0 -10px 20px -10px;
+	display: flex;
+}
+
+.product-box{
+	margin: 0 10px;
+	height: 410px;
+	width: 100%;
+	background-color: white;
+}
+
+
+
+
+
+
+
+

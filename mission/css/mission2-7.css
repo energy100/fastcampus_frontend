@@ -1,0 +1,52 @@
+/**{
+	border: 1px solid;
+	margin: 0;
+}*/
+
+.banner{
+	position: relative;
+	width: 1920px;
+	height: 777px;
+	background: url(../images/nexon/BG.png) no-repeat;
+	background-size: 100%;
+}
+
+
+#nexon-title{
+	position: absolute;
+	left: 50%;
+	top: 50px;
+	transform: translateX(-50%);
+
+}
+#planet-left{
+	position: absolute;
+	left: 300px;
+	top: 250px;
+}
+#planet-right{
+	position: absolute;
+	right: 300px;
+	top: 50px;
+}
+#robot-left{
+	position: absolute;
+	left: 350px;
+	bottom: 100px;
+	z-index: 10;
+}
+#robot-right{
+	position: absolute;
+	right: 420px;
+	bottom: 80px;
+	z-index: 10;
+}
+#youtube{
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+	transform: translateX(-50%);
+
+}
+
+

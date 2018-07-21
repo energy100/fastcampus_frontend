@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>비밀번호 찾기</h1>
+	<h2>등록한 회원정보 또는 본인인증으로 비밀번호를 찾을 수 있습니다.</h2>
+
+	<div class="gray_box">
+		<h3>등록된 회원정보로 찾기</h3>
+		<p>회원 가입 시 등록한 정보를 정확히 입력해주세요.</p>
+		<p>
+			<label for="user_id"></label>
+			<input type="text" id="user_id" placeholder="아이디">
+		</p>
+		<p>
+			<label for="user_pass"></label>
+			<input type="password" id="user_pass" placeholder="비밀번호">
+		</p>
+
+		<p>
+			<label for="user_email"></label>
+			<input type="email" id="user_email" placeholder="이메일">
+		</p>
+
+		<button type="button" class="finding_password">비밀번호 찾기</button>
+	</div>
+
+
+	<div class="white_box">
+		<h3>본인인증 수단으로 찾기</h3>
+		<p>아이디 본인 확인 후 본인인증을 선택해주세요</p>
+
+		<p>
+			<label for="user_id"></label>
+			<input type="text">
+			<button type="button" class="check_id"></button>
+		</p>
+
+		<p class="select_box">
+			<figure>
+				<img src="#" alt="모니터 사진">
+				<p>아이핀 인증</p>
+			</figure>
+
+			<figure>
+				<img src="#" alt="스마트폰 사진">
+				<p>휴대폰 본인인증</p>
+			</figure>
+		</p>	
+	
+		<button type="button" class="finding_password">비밀번호 찾기</button>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+/*html {margin : 0px; padding : 0px; width : 100%; height : 100%; background-color: #e2fec1;}
+*/
+.book { margin: 90px; width: 1000px; height: 571px; background-color: #2181ef;}
+.green { border-left: 23px solid #78a840; float: left; width: 485px; height: 100%; background-color:#8bc34a; padding: 29px 29px 78px 30px;}
+.calender { float: left; width: 515px; height: 100%; background-color:#eeeeee; padding:29px 29px 90px 50px ; position: relative; }
+
+.float_right{float: right;}
+.nav {padding-bottom: 132px; display: inherit; }
+.friday{ color: #fff; font-size: 48px; line-height: 55px; margin-bottom: 0px;}
+.title{padding-bottom: 106px;}
+.reminders{border-bottom: 1px solid #fff;}
+.white{color: white; font-size: 17px; margin-bottom: 0px;}
+li { list-style: none; }
+ul { padding: 15px 0 0;}
+.green_list{}
+.year { text-align: right; color: gray; font-size: 34.26px; margin-bottom: 0px;}
+.r_nav {margin-bottom: 146px;}
+.calender_up { font-size: 10.28px; color: #bfbfbf; word-spacing: 12px;}
+.now {font-size: 17px; color:#808080;}
+
+
+.calender_table { width : 465px; height : 260px; text-align: center; margin-left: -17px; color: #808080;}
+table th {text-align: middle; padding-bottom: 15px;}
+table td {font-size: 11px; color: #808080; vertical-align: middle;}
+table td span { display: inline-block; width : 30px; height: 30px; border-radius: 6px; line-height: 38px;}
+table td span.today { background : #8bc34a; color: #fff;}
+table td span.hover { border: solid 1px #8bc34a; color: #8bc34a;}
+
+
+.addButton { position: absolute; bottom: 23px; right: 23px; }
+

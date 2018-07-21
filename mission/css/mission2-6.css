@@ -1,0 +1,94 @@
+/**{
+	border: 1px solid;
+}*/
+
+.Dior{
+	width: 1400px;
+	position: relative;
+	height: 800px;
+}
+
+.center{
+	position: relative;
+	width: 900px;
+	height: 600px;
+	top: 100px;
+	left: 250px;
+
+}
+
+
+.CD{
+	position: relative;
+	width: 350px;
+	height: 600px;
+	left: 300px;
+
+}
+
+#shole{
+	position: absolute;
+	left: 100px;
+	top: 50%;
+	transform: translateY(-50%);
+} 
+
+#bag{
+	position: absolute;
+	right : 100px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#model-2{
+	position: absolute;
+	right : 240px;
+	bottom : 100px;
+	z-index: 10;
+}
+
+#model-1{
+	position: absolute;
+	left : 280px;
+	top: 63%;
+	transform: translateY(-50%);
+	z-index: 10;
+}
+#D{
+	position: absolute;
+	left : 50%;
+	bottom: 140px;
+	transform: translateX(-50%);
+	z-index: 10;
+
+}
+
+#C{
+	position: absolute;
+	top: 150px;
+	left : 50%;
+	transform: translateX(-50%);
+	z-index: 10;
+}
+
+#symbol{
+	position: absolute;
+	left : 50%;
+	transform: translateX(-50%);
+	top: 50%;
+	z-index: 10;
+}
+
+#Christian{
+	position: absolute;
+	left: 170px;
+	bottom: 160px;
+	z-index: 10;
+}
+
+#BG{
+	position: absolute;
+	left : 50%;
+	transform: translate3d(-50%, -50%, 0);
+	top: 50%;
+}

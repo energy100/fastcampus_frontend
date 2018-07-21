@@ -1,0 +1,63 @@
+*{
+	list-style: none;
+}
+
+.Heading1{
+	font-family :   SpoqaHanSans ;
+	font-size :   46px ;
+	font-weight :   400 ;
+	color :   #333333 ;
+	letter-spacing :   - 0.025em ; (KR)
+	letter-spacing :   0 ; (EN)
+	line-height :   1.5 ;
+}
+
+.Heading2{
+	font-family :   SpoqaHanSans ;
+	font-size :   30px ;
+	font-weight :   700 ;
+	color :   #333333 ;
+	letter-spacing :   - 0.025em ; (KR)
+	letter-spacing :   0 ; (EN)
+	line-height :   1.5 ;
+}
+
+.Heading3{
+	font-family :   SpoqaHanSans ;
+	font-size :   24px ;
+	font-weight :   700 ;
+	color :   #333333 ;
+	letter-spacing :   - 0.025em ; (KR)
+	letter-spacing :   0 ; (EN)
+	line-height :   1.5 ;
+}
+
+.Heading4{
+	font-family :   SpoqaHanSans ;
+	font-size :   18px ;
+	font-weight :   700 ;
+	color :   #333333 ;
+	letter-spacing :   - 0.025em ; (KR)
+	letter-spacing :   0 ; (EN)
+	line-height :   1.5 ;
+}
+
+.LargeParagraph{
+	font-family :   SpoqaHanSans ;
+	font-size :   14px ;
+	font-weight :   400 ;
+	color :   #666666 ;
+	letter-spacing :   - 0.025em ; (KR)
+	letter-spacing :   0 ; (EN)
+	line-height :   1.5 ;
+}
+
+.SmallParagraph{
+	font-family :   SpoqaHanSans ;
+	font-size :   13px ;
+	font-weight :   400 ;
+	color :   #666666 ;
+	letter-spacing :   - 0.025em ; (KR)
+	letter-spacing :   0 ; (EN)
+	line-height :   1.5 ;
+}

@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Gotham";
+    src: font-url("../font/gotham-book-webfont.eot");
+    src: font-url("../font/gotham-book-webfont.eot?#iefix") format("embedded-opentype"),
+         font-url("../font/gotham-book-webfont.woff") format("woff"),
+         font-url("../font/gotham-book-webfont.ttf") format("truetype"),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: font-url("../font/gotham-light-webfont.eot");
+    src: font-url("../font/gotham-light-webfont.eot?#iefix") format("embedded-opentype"),
+         font-url("../font/gotham-light-webfont.woff") format("woff"),
+         font-url("../font/gotham-light-webfont.ttf") format("truetype"),
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.gotham {
+	font-family: "Gotham";
+}
+
+.gotham.is-book {
+	font-weight: normal;
+    display: inline-block;
+}
+
+.gotham.is-bold{
+    font-weight: bold;
+}
+.gotham.is-light {
+	font-weight: 300;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.a-size{
+    font-size: 11pt;
+}
+
+.b-size{
+    font-size: 14pt;
+}
+
+.c-size{
+    font-size: 24pt;
+    font-weight: 500;
+}
+
+.gray{
+    color: #5b5d69;
+}
+
+.center{
+
+}

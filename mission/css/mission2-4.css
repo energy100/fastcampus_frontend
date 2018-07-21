@@ -1,0 +1,231 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.page{
+	width: 1400px;
+}
+
+
+.photo_26{
+	background-image: url("https://thumb.ibb.co/k3aszH/photo_26.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_27{
+	background-image: url("https://thumb.ibb.co/gJ3eeH/photo_27.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_28{
+	background-image: url("https://thumb.ibb.co/n7oZDc/photo_28.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_20{
+	background-image: url("https://thumb.ibb.co/iG6zeH/photo_20.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_21{
+	background-image: url("https://thumb.ibb.co/gM8qmx/photo_21.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_22{
+	background-image: url("https://thumb.ibb.co/eZteeH/photo_22.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_23{
+	background-image: url("https://thumb.ibb.co/kVaEDc/photo_23.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_24{
+	background-image: url("https://thumb.ibb.co/egPVmx/photo_24.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_25{
+	background-image: url("https://thumb.ibb.co/kWCSYc/photo_25.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_16{
+	background-image: url("https://thumb.ibb.co/gmU7Yc/photo_16.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_17{
+	background-image: url("https://thumb.ibb.co/njjKeH/photo_17.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_18{
+	background-image: url("https://thumb.ibb.co/nrgzeH/photo_18.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_19{
+	background-image: url("https://thumb.ibb.co/kCv36x/photo_19.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_09{
+	background-image: url("https://thumb.ibb.co/im536x/photo_09.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_11{
+	background-image: url("https://thumb.ibb.co/gbgzeH/photo_11.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_12{
+	background-image: url("https://thumb.ibb.co/f6aQKH/photo_12.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_13{
+	background-image: url("https://thumb.ibb.co/kzZKeH/photo_13.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_14{
+	background-image: url("https://thumb.ibb.co/iw7Qmx/photo_14.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_15{
+	background-image: url("https://thumb.ibb.co/h3ty6x/photo_15.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_08{
+	background-image: url("https://thumb.ibb.co/gmVd6x/photo_08.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_10{
+	background-image: url("https://thumb.ibb.co/cwn2Yc/photo_10.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_03{
+	background-image: url("https://thumb.ibb.co/fYbJ6x/photo_03.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_04{
+	background-image: url("https://thumb.ibb.co/h6y9Dc/photo_04.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_05{
+	background-image: url("https://thumb.ibb.co/b45BRx/photo_05.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_06{
+	background-image: url("https://thumb.ibb.co/i1WUDc/photo_06.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_07{
+	background-image: url("https://thumb.ibb.co/jKSQmx/photo_07.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+.photo_01{
+	background-image: url("https://thumb.ibb.co/eCaBRx/photo_01.png");
+	background-size: 100%;
+	width:350px;
+	height:350px;
+	float: left;
+}
+
+
+
+<img src="https://thumb.ibb.co/k3aszH/photo_26.png" alt="photo_26" border="0">
+<img src="https://thumb.ibb.co/gJ3eeH/photo_27.png" alt="photo_27" border="0">
+<img src="https://thumb.ibb.co/n7oZDc/photo_28.png" alt="photo_28" border="0">
+<img src="https://thumb.ibb.co/iG6zeH/photo_20.png" alt="photo_20" border="0">
+<img src="https://thumb.ibb.co/gM8qmx/photo_21.png" alt="photo_21" border="0">
+<img src="https://thumb.ibb.co/eZteeH/photo_22.png" alt="photo_22" border="0">
+<img src="https://thumb.ibb.co/kVaEDc/photo_23.png" alt="photo_23" border="0">
+<img src="https://thumb.ibb.co/egPVmx/photo_24.png" alt="photo_24" border="0">
+<img src="https://thumb.ibb.co/kWCSYc/photo_25.png" alt="photo_25" border="0">
+<img src="https://thumb.ibb.co/gmU7Yc/photo_16.png" alt="photo_16" border="0">
+<img src="https://thumb.ibb.co/njjKeH/photo_17.png" alt="photo_17" border="0">
+<img src="https://thumb.ibb.co/nrgzeH/photo_18.png" alt="photo_18" border="0">
+<img src="https://thumb.ibb.co/kCv36x/photo_19.png" alt="photo_19" border="0">
+<img src="https://thumb.ibb.co/im536x/photo_09.png" alt="photo_09" border="0">
+<img src="https://thumb.ibb.co/gbgzeH/photo_11.png" alt="photo_11" border="0">
+<img src="https://thumb.ibb.co/f6aQKH/photo_12.png" alt="photo_12" border="0">
+<img src="https://thumb.ibb.co/kzZKeH/photo_13.png" alt="photo_13" border="0">
+<img src="https://thumb.ibb.co/iw7Qmx/photo_14.png" alt="photo_14" border="0">
+<img src="https://thumb.ibb.co/h3ty6x/photo_15.png" alt="photo_15" border="0">
+<img src="https://thumb.ibb.co/gmVd6x/photo_08.png" alt="photo_08" border="0">
+<img src="https://thumb.ibb.co/cwn2Yc/photo_10.png" alt="photo_10" border="0">
+<img src="https://thumb.ibb.co/fYbJ6x/photo_03.png" alt="photo_03" border="0">
+<img src="https://thumb.ibb.co/h6y9Dc/photo_04.png" alt="photo_04" border="0">
+<img src="https://thumb.ibb.co/b45BRx/photo_05.png" alt="photo_05" border="0">
+<img src="https://thumb.ibb.co/i1WUDc/photo_06.png" alt="photo_06" border="0">
+<img src="https://thumb.ibb.co/jKSQmx/photo_07.png" alt="photo_07" border="0">
+<img src="https://thumb.ibb.co/eCaBRx/photo_01.png" alt="photo_01" border="0">

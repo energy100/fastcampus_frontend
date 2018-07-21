@@ -1,0 +1,55 @@
+/*
+  ------------------------------------------------
+  CSS 포지셔닝 레이아웃(Layout)
+  ------------------------------------------------
+*/
+
+.box-group {
+  overflow: auto;
+  height: 420px;
+  margin-top: 20px;
+  border: 10px solid #e9e9e9;
+  background: #fff;
+  position: relative;
+}
+
+.box-wrapper {
+  height: 1600px;
+}
+
+.box {
+  width: 140px;
+  height: 140px;
+}
+
+.box.is-blue   { background: #3b4055; }
+.box.is-yellow { background: #fff06b; }
+.box.is-green  { background: #69ccb5; }
+
+
+/* 상대(relative) 위치 설정 */
+/*.box.is-blue{
+  position: relative;
+  top: 20px;
+  right: -100px;
+  z-index: 10;
+}*/
+/*
+.box.is-yellow {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}*/
+
+/* 고정(fixed) 위치 설정 */
+/*.box.is-green{
+  position: fixed;
+}
+*/
+/* 달라붙는(sticky) 위치 설정 */
+
+.box{
+  position: sticky;
+  top: 0;
+}
+
