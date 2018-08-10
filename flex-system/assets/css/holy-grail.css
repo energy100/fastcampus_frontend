@@ -1,0 +1,168 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color : #ff9c00;
+}
+
+li, ul{
+	text-align: left;
+	list-style: none;
+	padding: 0 2px;
+	margin : 0;
+	display: inline-block;
+}
+
+h2{
+	margin: 0;
+	display: inline-block;
+}
+
+.browser-header > * {
+	width: 14px;
+  	height: 14px;
+  	margin-left: 0.7rem;
+ 	border-radius: 7px;
+
+ 	display: inline-block;
+}
+
+.browser-header :nth-child(1){background-color: #fff6a2;}
+.browser-header :nth-child(2){background-color: #fff6a2;}
+.browser-header :nth-child(3){background-color: #fff6a2;}
+
+.browser{
+	margin-top: 5%;
+	display: inline-block;
+	height: 70vh;
+	width: 80vw;
+	min-width: 600px;
+	border-radius: 5px;
+	background-color: white;
+	border : solid 1px #ff9c00;
+}
+
+.browser-header{
+	height: 10%;
+	background-color: #ff9c00;
+	border-top-right-radius : 5px;
+	border-top-left-radius : 5px;
+	display: flex;
+	align-items: center;
+	border-bottom: solid 2px #fff6a2;
+}
+
+.browser-content-box{
+	height: 90%;
+	background-color: #ff9c00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.browser-contents{
+	display: flex;
+	flex-direction: column;
+	height: 90%;
+	flex: 0 1 90%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	overflow: hidden;
+	background-color: white;
+
+}
+
+.title{
+	flex : 0 1 10%;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contents{
+	flex : 0 1 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom : solid 2px #ff9c00;
+	border-top : solid 2px #ff9c00;
+}
+
+.contents > * {
+	margin: 10px;
+	
+}
+
+.ad{
+	flex : 0 1 15%;
+	height: 100%;
+	border-right: solid 2px #ff9c00;
+}
+
+.main{
+	order: 2;
+	flex : 0 1 70%;
+	height: 100%;
+	border-right: solid 2px #ff9c00;
+}
+
+.link{
+	order:3;
+	flex : 0 1 15%;
+	height: 100%;
+}
+.contents h2 {
+	margin: 0;
+}
+
+
+
+
+.footer{
+	flex: 0 1 10%;
+	padding : 10px;
+	text-align: center;
+}
+
+.footer ul{
+	vertical-align: middle;	
+}
+
+.align-box{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

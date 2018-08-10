@@ -1,0 +1,62 @@
+body{
+	text-align: center;
+}
+
+
+.browser{
+	margin-top: 5%;
+	display: inline-block;
+	height: 70vh;
+	width: 80vw;
+	min-width: 600px;
+	border-radius: 5px;
+	background-color: white;
+	border : solid 1px #DDD;
+}
+
+.browser-header{
+	height: 10%;
+	background-color: #DDD;
+	border-top-right-radius : 5px;
+	border-top-left-radius : 5px;
+	border-bottom : solid 1px #888;
+}
+
+.browser-content-box{
+	height: 90%;
+	background-color: #DDD;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.browser-contents{
+	display: flex;
+	justify-content: space-between;
+	height: 90%;
+	width: 96%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	overflow: hidden;
+}
+
+.right-flex, .left-flex{
+	flex: 0 0 50%;
+	height: 100%;
+	background-color: white;
+}
+
+
+.left-flex{
+	background-image: url("http://health.chosun.com/site/data/img_dir/2013/03/21/2013032101199_0.jpg");
+	background-repeat : no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.right-flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

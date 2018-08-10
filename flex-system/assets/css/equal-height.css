@@ -1,0 +1,159 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+li, ul{
+	text-align: left;
+	list-style: none;
+	padding: 0 2px;
+	margin : 0;
+	display: inline-block;
+}
+
+h2{
+	margin: 0;
+	display: inline-block;
+}
+
+
+h3, p {
+	margin : 10px 0 0 0;
+}
+
+.browser-header > * {
+	width: 14px;
+  	height: 14px;
+  	margin-left: 0.7rem;
+ 	border-radius: 7px;
+ 	background-color: black;
+ 	display: inline-block;
+}
+
+.browser-header :nth-child(1){background-color: red;}
+.browser-header :nth-child(2){background-color: green;}
+.browser-header :nth-child(3){background-color: yellow;}
+
+.browser{
+	margin-top: 5%;
+	display: inline-block;
+	height: 70vh;
+	width: 80vw;
+	min-width: 600px;
+	border-radius: 5px;
+	background-color: white;
+	border : solid 1px #9999ff;
+}
+
+.browser-header{
+	height: 10%;
+	background-color: #9999ff;
+	border-top-right-radius : 5px;
+	border-top-left-radius : 5px;
+	border-bottom : solid 1px #888;
+	display: flex;
+	align-items: center;
+}
+
+.browser-content-box{
+	height: 90%;
+	background-color: #9999ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.browser-contents{
+	display: flex;
+	flex-direction: column;
+	height: 90%;
+	flex: 0 1 90%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	overflow: hidden;
+	background-color: white;
+}
+
+.sidebar{
+	flex : 0 1 25%;
+	border-right: 1px solid #888;
+}
+
+.main-contents{
+	flex : 0 1 75%;
+	padding: 30px;
+	overflow: scroll;
+}
+
+
+.title{
+	flex : 0 1 10%;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 3px solid #99f;
+}
+
+.contents{
+	flex : 0 1 80%;
+	padding : 10px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 3px solid #99f;
+
+}
+
+
+.equal-box{
+	flex : 0 1 25%;
+	display: flex;
+	flex-flow : column;
+	margin: 0 10px;
+}
+
+.upper-box{
+	display: flex;
+	flex : 0 1 40%;
+	justify-content: center;
+	align-items: center;
+	background-color : #e199ff;
+}
+.detail-box{
+	flex: 0 1 60%;
+	background-color : #99f;
+	color : white;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.detail-box :nth-child(1){flex : 0 1 40%;}
+.detail-box :nth-child(2){flex : 0 1 60%;}
+
+.detail-box p{
+	font-size: 12px;
+}
+
+
+
+
+/*footer*/
+
+.footer{
+	flex: 0 1 10%;
+	padding : 10px;
+	text-align: center;
+}
+
+.footer ul{
+	vertical-align: middle;	
+}
+
+.align-box{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;	
+
+}
