@@ -8,7 +8,7 @@ p, figure{
 }
 
 .container{
-	padding: 0 120px;
+	padding: 30px 120px;
 }
 
 
@@ -34,15 +34,15 @@ p, figure{
 	height: 11px;
 }
 
-
+.icon-17px{
+	height: 17px;
+}
 /***********************메뉴*********************/
 
 
 .menu{
-
-	height: 20px;
-	padding-top: 20px;
-	padding-bottom: 40px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 	box-sizing: border-box;
 	border-bottom: 1px solid #ccc;
 }
@@ -131,7 +131,7 @@ p, figure{
 }
 .carousel img{
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 
 .carousel .button-box{
@@ -214,7 +214,7 @@ p, figure{
 
 .red-button{
 	margin-top: 20px;
-	width: 170px;
+	width: 60%;
 	height: 45px;
 	border-radius: 3px;
 	background-color: #e36556;
@@ -247,7 +247,7 @@ p, figure{
 	margin: 0 15%;
 	padding: 0;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	vertical-align: middle;
 }
 
@@ -274,21 +274,269 @@ p, figure{
 /**********************상품*********************/
 
 .products{
-	margin:  0 -10px 20px -10px;
+	margin:  20px -10px ;
 	display: flex;
 }
 
 .product-box{
 	margin: 0 10px;
-	height: 410px;
 	width: 100%;
 	background-color: white;
+	justify-content: space-between;
+	position: relative;
+	border-radius: 3px;
+	text-align: center;
 }
 
 
+.product-box img{
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.tag-box{
+	width: 43px;
+	height: 43px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	line-height: 43px;
+
+}
+
+.tag-box .f3{
+	font-size: 10px;
+}
+.new{
+	background-color: #62b951;
+}
+.hit{
+	background-color: #e3db56;
+}
+.sale{
+	background-color: #e36556;
+}
+.sale p{
+	line-height: 1;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.product-name{
+	width: 100%;
+	margin-top: 25px;
+}
+.product-price{
+	width: 100%;
+	margin : 10px 0;
+	color: #e36556
+}
+
+/*******************어바웃어스******************/
+
+.about-us{
+	border-radius: 3px;
+	padding: 0 60px;
+	text-align: center;
+	background-color: white;
+}
+
+.background .about-us-title{
+	font-size: 30px;
+	margin: 40px 0px 30px 0;
+}
+.about-us-contents{
+	padding-bottom: 30px;
+}
+
+.line-box{
+	width: 170px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	border: 2px solid #e36556;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+/******************쁘롬블로그******************/
 
 
+.from-the-blog{
+	text-align: center;
+}
+
+.blog-post{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -10px;
+
+}
+
+.post-box{
+	width: 100%;
+	background-color: white;
+	border-radius: 3px;
+	margin: 0 10px;
+	padding: 0 20px;
+	position: relative;
+	min-height: 300px;
+	max-width: 230px;
+}
+
+.post-box sub{
+	vertical-align: middle;
+}
+.post-box img{
+ 	vertical-align: middle;
+ 	/*padding-bottom: 10px;*/
+
+ }
+
+ .icon-box{
+ 	margin-bottom: 15px;
+ }
+
+.post-box p{
+	padding-top: 30px;
+}
+
+.pic-background{
+	background-image: url("arbuzz-assets/blog/life.jpg");
+	background-position: center;
+	background-height: auto;
+	background-width : 140%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.pic2-background{
+	background-image: url("arbuzz-assets/blog/travel.jpg");
+	background-position: center;
+	background-height: auto;
+	background-width : 140%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.blog-redbox{
+	width: 60px;
+	height: 27px;
+	text-align: center;
+	border-radius: 3px;
+	background-color: #e36556;
+	display: inline-block;
+	margin-top: 30px;
+	line-height: 27px;
+}
+
+.blog-redbox p{
+	margin: 0;
+	padding-top: 0;
+}
+
+.bottom-box{
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	left: 0;
+}
+
+.bottom-box p, .bottom-box img{
+	vertical-align: middle;
+	padding: 0;
+	padding-left: 20px;
+}
+
+/******************vnxj******************/
+
+.footer{
+	margin : 10px 0;
+}
+
+.footer-category{
+	display: inline-block;
+}
+
+.footer ul{
+	color: #999;
+	list-style : none;
+	font-weight: 400;
+	padding:  0;
+	margin-right: 20px;
+}
+
+.kids, .women, .men{
+	float: left;
+	margin-right: 100px;
+}
+
+.footer-contact{
+	display: inline-block;
+	float: right;
+}
+
+.subscribe-us *{
+	display: inline-block;
+}
+
+.footer li{
+	padding-bottom: 10px;
+}
+
+.sns-icons *{
+	padding : 20px 10px 25px 0;
+}
+
+.subscribe-box {
+	height: 3rem;
+	display: block;
+}
+
+.subscribe-box .send{
+	height: 100%;
+	padding: 0;
+	margin : 0;
+	margin-left: -5px;
+	border: 0;
+	width: 3rem;
+	background-color: #e36556;
+	border-radius: 3px;
+
+}
+
+.subscribe-us input{
+	margin : 20px 0;
+	padding: 0;
+	height: 100%;
+	width: 15rem;
+	box-sizing: border-box;
+
+}
+/******************vnxj******************/
 
 
+.foot-footer{
+	height: 70px;
+	display: block;
+	border-top: 1px solid #999;
+}
 
+.left-logo {
+	display: inline-block;
+}
 
+.left-logo *{
+	margin-right: 20px;
+
+}
+
+.copyright{
+	float: right;
+}
