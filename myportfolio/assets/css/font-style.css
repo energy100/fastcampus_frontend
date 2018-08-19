@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,600,700,900|Noto+Sans');
+.lato * { font-family: 'Lato', sans-serif; }
+.notosans * { font-family: 'Noto sans', sans-serif; }
+
+@media (min-width:320px) and (max-width: 759px){html{font-size:12pt;}}
+@media (min-width:760px) and (max-width:1199px){html{font-size:16px;}}
+@media (min-width:1200px){html{font-size:20px;}}
+
+
+
+h1{
+    font-family: 'Lato';
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 700;
+}
+
+
+h2{
+    font-family: 'Lato';
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
+
+.h2{
+    font-family: 'Lato';
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Lato';
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 600;
+}
+
+.sub{
+    font-family: 'Lato';
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    color: #888;
+    font-weight: 300;
+}
+
+.light{
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+.font-white{
+    color: white;
+    opacity: none;
+}
+
+.menu-selected {
+    color: #ffff2e;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Background video - fullPage.js</title>
+	<link rel="stylesheet" type="text/css" href="../dist/fullpage.css" />
+	<style>
+
+
+	#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+
+
+
+	/*solves problem with overflowing video in Mac with Chrome */
+	#section0{
+		overflow: hidden;
+	}
+
+
+	</style>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<video id="myVideo" loop muted data-autoplay>
+			<source src="imgs/flowers.mp4" type="video/mp4">
+		</video></div>
+	<div class="section" id="section1"><h1>Slide Backgrounds</h1></div>
+	<div class="section" id="section2"><h1>Lovely images </h1></div>
+</div>
+
+<script type="text/javascript" src="../dist/fullpage.js"></script>
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: true
+         });
+</script>
+
+</body>
+</html>
