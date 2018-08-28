@@ -191,6 +191,7 @@ nav{
 .career {
 	background-color: #ff8b00;
 	height: 100vh;
+	position: relative;
 }
 
 .buildings{
@@ -226,43 +227,77 @@ nav{
 .extra-curricular{
 	background-color: #00a4fa;
 	height: 100vh;
+	position: relative;
 }
 
 #brunch{
+	z-index: 10;
 	position: absolute;
-	top: 34.5%;
+	bottom: 11.5rem;
 	right: 18%;
 	width : 9.88rem;
-	box-shadow: 10px 20px 15px 3px rgba(0, 0, 0, 0.34);
 	border-radius: 2rem;
-	
+	box-shadow: 0.3rem 0.6rem 0.5rem 0.19rem rgba(0, 0, 0, 0.34);
+
+}
+
+#brunch:hover{
+	transform: translateY(-1rem);
+	transition-delay: 0.1s;
+	transition-duration: 0.4s;
+	box-shadow: 0.62rem 1.25rem 1rem 0.19rem rgba(0, 0, 0, 0.34);
 }
 
 #jieum{
+	z-index: 10;
 	position: absolute;
-	bottom: 12%;
+	bottom: 4rem;
 	right: 27%;
 	width: 5rem;
-	box-shadow: -5px 5px 10px 3px rgba(0, 0, 0, 0.34);
+	box-shadow: 0.15rem 0.15rem 0.31rem 0.19rem rgba(0, 0, 0, 0.34);
 	border-radius: 1rem;
+}
+
+#jieum:hover{
+	transform: translateY(-0.5rem);
+	transition-delay: 0.1s;
+	transition-duration: 0.4s;
+	box-shadow: 0.31rem 0.31rem 0.62rem 0.19rem rgba(0, 0, 0, 0.34);
 }
 
 #onezero{
+	z-index: 10;
 	position: absolute;
-	top: 20%;
+	bottom: 20rem;
 	right: 6%;
 	width: 5.5rem;
-	box-shadow: 3px 5px 8px 3px rgba(0, 0, 0, 0.34);
+	box-shadow: 0.1rem 0.15rem 0.25rem 0.19rem rgba(0, 0, 0, 0.34);
 	border-radius: 1rem;
 }
+#onezero:hover{
+	transform: translateY(-0.5rem);
+	transition-delay: 0.1s;
+	transition-duration: 0.4s;
+	box-shadow: 0.2rem 0.31rem 0.5rem 0.19rem rgba(0, 0, 0, 0.34);
+}
+
 
 #taling{
+	z-index: 10;
 	position: absolute;
-	bottom: 20%;
+	bottom: 7rem;
 	right: 4%;
 	width: 6.7rem;
-	box-shadow: 10px 20px 15px 3px rgba(0, 0, 0, 0.34);
+	box-shadow: 0.31rem 0.62rem 0.5rem 0.19rem rgba(0, 0, 0, 0.34);
 	border-radius: 1.2rem;
+}
+
+#taling:hover{
+	transform: translateY(-1rem);
+	transition-delay: 0.1s;
+	transition-duration: 0.4s;
+	box-shadow: 0.62rem 1.24rem 1rem 0.19rem rgba(0, 0, 0, 0.34);
+
 }
 
 /*contact*/
@@ -270,6 +305,7 @@ nav{
 .contact{
 	background-color: #b221ff;
 	height: 100vh;
+	position: relative;
 }
 
 .contact-contents{

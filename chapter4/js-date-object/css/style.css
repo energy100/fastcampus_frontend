@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-flow: column wrap;
+  min-height: 100vh;
+  font: 14px/1.5 "Spoqa Han Sans", Sans-Serif;
+}
+
+/* -----------------------------------------------------------------------------
+ * 구름 스타일링
+ * --------------------------------------------------------------------------- */
+.cloud {
+  position: absolute;
+  background: url("../images/cloud.png") no-repeat;
+  animation-name: flow;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.cloud.is-big {
+  top: 100px;
+  left: 30vw;
+  width: 120px;
+  height: 120px;
+  background-size: 120px;
+}
+.cloud.is-regular {
+  top: 170px;
+  left: 90vw;
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+}
+.cloud.is-small {
+  top: 45px;
+  left: 65vw;
+  width: 60px;
+  height: 60px;
+  background-size: 60px;
+}
+.cloud.is-slow {
+  animation-duration: 28s;
+}
+.cloud.is-normal {
+  animation-duration: 24s;
+}
+.cloud.is-fast {
+  animation-duration: 20s;
+}
+
+.cloud.is-stop {
+  animation-play-state: paused;
+}
+
+/* -----------------------------------------------------------------------------
+ * 캐릭터 스타일링
+ * --------------------------------------------------------------------------- */
+.boy {
+  margin: 0;
+  background: url("../images/character-jump-outlines.png") no-repeat;
+  width: 145px;
+  height: 220px;
+}
+
+.boy.jump {
+  animation: jump 0.2s steps(2);
+}
+
+.info {
+  margin-bottom: 6vh;
+}
+
+@media (min-width: 60em) {
+  .info {
+    margin-bottom: 20vh;
+  }
+}
+
+.info kbd {
+  border-radius: 5px;
+  padding: 0.1em 0.3em;
+  vertical-align: 1.5px;
+  line-height: 1;
+  background: #f0f0f0;
+}
+
+@keyframes flow {
+  to {
+    transform: translateX(-110vw);
+  }
+}
+
+@keyframes jump {
+  to {
+    background-position: 200% 0;
+  }
+}
+
+
+.today {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 11em;
+  height: auto;
+  margin: 0;
+  padding: 1em;
+  border-radius: 6px;
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  animation: slidein-to-bottom 1.2s cubic-bezier(0.18, 0.89, 0.32, 1.28) forwards 0.4s;
+}
+
+.year,
+.month,
+.date,
+.day,
+.hours,
+.minutes,
+.seconds,
+.milliseconds {
+  color: #ffd219;
+}
+
+@keyframes slidein-to-bottom {
+  0% {
+    opacity: 0;
+    transform: perspective(600px) rotateX(-45deg) translateY(-300px) scale(0);
+  }
+  80% {
+    opacity: 0.85;
+    transform: perspective(600px) rotateX(5deg) translateY(20px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(600px) rotateX(5deg) translateY(0) scale(1);
+  }
+}
