@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,600,700,900|Noto+Sans');
+.lato * { font-family: 'Lato', sans-serif; }
+.notosans * { font-family: 'Noto sans', sans-serif; }
+
+@media (min-width:320px) and (max-width: 759px){html{font-size:12pt;}}
+@media (min-width:760px) and (max-width:1199px){html{font-size:16px;}}
+@media (min-width:1200px){html{font-size:20px;}}
+
+span{
+    font-weight: bold;
+}
+
+*{
+    font-family: 'Lato';
+}
+
+h1{
+    font-family: 'Lato';
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+
+h2{
+    font-family: 'Lato';
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
+
+.h2{
+    font-family: 'Lato';
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Lato';
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+
+.sub{
+    font-family: 'Lato';
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #888;
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+.light{
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+.font-white{
+    color: white;
+    opacity: none;
+}
+
+.menu-selected {
+    color: #ffff2e;
+}
+
+
+.brown{
+  color: rgba(54, 36, 21, 0.8);
+}
