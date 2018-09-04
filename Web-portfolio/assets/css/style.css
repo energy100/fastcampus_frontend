@@ -1,0 +1,327 @@
+/*반응형 : nav list<> hamburger 반응형 */
+
+@media (max-width: 480px){
+	#list-menu{display: none !important;}
+	#hamburger-menu{display: block;}
+}
+
+@media (min-width: 481px) {
+	#list-menu{display: block;}
+	#hamburger-menu{display: none !important;}
+}
+
+@media (max-width: 760px){
+	.bg-word{top: 7rem !important;}
+}
+
+
+
+/****************기본값****************/
+
+ul, li{
+	list-style: none;
+	padding-left: 0;
+}
+
+img {
+	display: inline-block;
+}
+
+section{
+	height: 100vh;
+	overflow : hidden;
+}
+
+
+*{
+	transition: 0.5s;
+}
+
+button{
+	display: inline-block;
+}
+
+
+
+/****************도움들****************/
+
+.align-helper{
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.is-50{
+	height: 50px;
+}
+
+
+
+
+/****************header - nav****************/
+
+nav{
+		position:fixed;
+		height: 50px;
+		display:block;
+		width: 100%;
+		z-index:9;
+		color: #f2f2f2;
+	}
+
+.logo{
+	height : 1.5rem;
+	display: inline-block;
+	left : 2.62rem;
+	vertical-align: middle;
+}
+
+.right-bar {
+	float : right;
+	vertical-align: middle;
+
+}
+
+.right-bar > *{
+	display: inline-block;
+	list-style: none;
+}
+
+.right-bar :not(:last-child){
+	padding-right: 1rem;
+
+}
+
+
+li:hover a{
+	font-weight: 400;
+	text-decoration: none;
+	color: #ff088a;
+}
+
+.underline{
+	margin-top: 3px;
+	width: 0%;
+	height: 2px;
+	background-color: #ff088a;
+}
+
+li:hover .underline  {
+	width: 50%;
+}
+
+.scroll-fixed{
+	background-color: #3d3d3d;
+	box-shadow: 0 0 0.3rem 0 rgba(0, 0, 0, 0.34);
+	color: white;
+}
+
+
+/****************hamburger****************/
+
+
+#hamburger-menu{
+	background-color: #3d3d3d;
+	box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.34);
+	padding: 0 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#hamburger {
+	margin-top: 0.2rem;
+	background : none;
+	border : none;
+}
+
+.three-bar {
+  width: 1.8rem;
+  height: 0.3rem;
+  background-color: white;
+  margin: 0.4rem 0;
+}
+
+
+/****************side menu****************/
+
+.side-menu {
+	background-color: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1000;
+  }
+
+
+.menu-hidden{
+	transform : translateX(300vw);
+	
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.side-menu ul{
+  margin-top: 50px;
+}
+
+.side-menu li{
+  height : 4.5rem;
+  font-size: 1.8rem;
+  text-decoration: none !important;
+  color: white;
+  vertical-align: middle;
+  padding-left: 2.5rem;
+
+}
+
+.side-menu a:hover{
+  text-decoration: none;
+}
+
+.side-menu li:hover{
+  background-color: #ff088a;
+}
+
+.exit{
+	float: right;
+	background: none;
+	border : none;
+}
+
+.exit img{
+	padding: 10px 20px 0 0;
+	width: 4rem;
+}
+
+
+/****************main****************/
+
+.main{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	text-align: left;
+}
+
+.main-contents{
+	line-height: 3rem;
+}
+
+
+
+/* about말고 나머지*/
+.bg-word {
+	position: absolute;
+	font-size: 36px;
+	left: -2rem;
+	top: 20rem;
+	font-weight: 700;
+}
+
+.bg-word span{
+	font-size : 288px;
+	margin-right: -3rem;
+	position: relative;
+	top: -0.4rem;
+}
+
+
+/****************footer******************/
+footer{
+	background-color: #3d3d3d;
+	color: white;
+	height: 25rem;
+	position: relative;
+}
+
+footer .container{
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-button{
+	height: 2.2rem;
+	width: 16rem;
+	border-radius: 0.2rem;
+	background-color: transparent;
+	border : solid 0.5px white;
+	text-align: center;
+	margin: 1rem 0 0 0;
+	opacity: 0.8;
+}
+
+footer .footer-button img{
+	height: 1.1rem;
+	margin-right: 1rem;
+}
+
+footer .footer-button >*{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.footer-button:hover {
+	background-color: grey;
+	border : none;
+	opacity: 1;
+}
+
+
+
+
+
+
+/****************mouse******************/
+
+
+#scrolldown {
+  bottom: 1rem;
+  height: 5rem;
+  margin-left: -4rem;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  width: 8rem;
+  z-index: 10;
+}
+
+
+.mouse {
+  border: 2px solid #000;
+  border-radius: 0.6rem;
+  display: block;
+  height: 2rem;
+  left: 50%;
+  margin: 10px 0 0 -13px;
+  position: absolute;
+  width: 1.2rem;
+}
+
+#scrolldown .ball {
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 0.15rem;
+	background-color: black;
+	display: block;
+	margin:  3px auto;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-name: scroll;
+	color: #000;
+}
+
+
+@keyframes scroll {
+  0% {transform: translateY(2px);}
+  100% {transform: translateY(7px);}
+}
+
