@@ -232,6 +232,7 @@
 	top: 10rem;
 	right: 5rem;
 	height: 20rem;
+	transition :0.5s;
 }
 
 @media (max-width: 960px){

@@ -48,11 +48,11 @@ function scrollNav(e) {
 	if(window.scrollY > 100) {
 	console.log('hi');
 	navFixed.classList.add('scroll-fixed');
-	logo.src = "assets/images/logo-white.svg"
+	logo.src = "assets/images/logo-white.svg";
 }
 	else{
 		navFixed.classList.remove('scroll-fixed');
-		logo.src = "assets/images/logo-black.svg"
+		logo.src = "assets/images/logo-black.svg";
 	}
   // var el = document.querySelector('.show-on-scroll');
   // if(window.scrollY >= 400) el.classList.add('shown');
