@@ -1,0 +1,161 @@
+
+@media (max-width: 480px){
+	.experience-wrapper{flex-flow: column; background-color: #eee;}
+	.leftside{text-align: left; padding: 0!important; display: block; justify-content: center !important; height: 400px;}
+	.rightside{display: block; height: 400px; justify-content: center !important;}
+	#kakao{height: 300px !important; width: 145.97px !important;}
+	#taling{height: 300px !important; width: 145.97px !important;}
+	#onz{height: 300px !important; width: 187.50px !important;}
+	section{height: auto !important;}
+}
+
+
+/*gif들*/
+#kakao {
+	height: 500px;
+	transition: 1s;
+}
+
+#taling, #onz{
+	transition: 1s;
+}
+
+
+/*박스*/
+
+.experience-wrapper{
+	display: flex;
+	width: 100%;
+	position: relative;
+	margin: 3rem 0;
+}
+
+.leftside, .rightside{
+	flex: 1 0 50%;
+	padding : 3rem;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.leftside{
+	text-align: right;
+	justify-content: flex-end;
+}
+
+.leftside .experience-highlight{
+	display: flex;
+	justify-content: flex-end;
+}
+
+section{
+	height: 90vh;
+}
+
+
+/*내용*/
+
+.text{
+	position: relative;
+}
+
+.text >* {
+	transform: translateY(200px);
+	opacity: 0;
+	transition: 1s;
+}
+
+.experience-wrapper .sub{
+	margin-bottom: 1.5rem;
+	transition-delay: 0.15s;
+
+}
+
+.experience-highlight{
+	display: flex;
+	transition-delay: 0.3s;
+}
+
+.highlight-title{
+	font-weight: 700;
+	font-size: 1rem;
+	display: inline-block;
+	margin-top: 0.1rem;
+}
+
+.highlight-list{
+	display: inline-block;
+	margin: 0 0 6rem 0;
+}
+
+.highlight-list li{
+	font-size: 1rem;
+	margin-left: 1rem;
+}
+
+
+/*브런치 이미지*/
+
+#brunch01, #brunch02, #brunch03{
+	position: absolute;
+	top: 1rem;
+	right: 10rem;
+	height: 20rem;
+	transition :1s;
+}
+
+
+#KU01, #KU02, #KU03{
+	position: absolute;
+	top: 1rem;
+	right: 10rem;
+	height: 23rem;
+	transition :1s;
+}
+
+
+
+/*스크롤 박스*/
+
+.scrollBox{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+	position: absolute;
+
+}
+
+.n15:hover .scrollBox, .etalks:hover .scrollBox{
+	display: none;
+}
+
+/*뮤트 박*/
+
+.muteBox, .soundBox{
+	position: absolute;
+	bottom: 0.2rem;
+	height: 2.5rem;
+	width: 100%;
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	padding : 0.5rem 1rem;
+}
+
+.muteBox img, .soundBox img{
+	width: 1.5rem;
+	float: right;
+}
+
+.muteBox p, .soundBox p{
+	display: inline-block;
+	float: left;
+
+}
+
+
+

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/font-style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/about-style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+
+
+
+</head>
+<body>
+
+<!-- 상단바 -->
+<nav id="list-menu">
+	<div class="container">
+		<a href="index.html"><img class ="logo" src="assets/images/logo-black.svg" alt=""></a>
+		<ul class="right-bar">
+			<li><a href="index.html" class="sub">About</a><div class="underline"></div></li>
+			<li><a href="work.html" class="sub">Work</a><div class="underline"></div></li>
+			<li><a href="experience.html" class="sub">Experience</a><div class="underline"></div></li>
+			<li><a href="analyze.html" class="sub">Analyze</a><div class="underline"></div></li>
+			<li><a href="contact.html" class="sub">Contact</a><div class="underline"></div></li>
+		</ul>
+		<div class="align-helper is-50"></div>
+	</div>
+</nav>
+
+<nav id="hamburger-menu">
+	<img class ="logo" src="assets/images/logo-white.svg" alt="">
+	<button type="button" class="open" id="hamburger">
+		<div class="three-bar"></div>
+		<div class="three-bar"></div>
+		<div class="three-bar"></div>
+	</button>
+</nav>
+
+
+<!-- 사이드뉴메뉴(햄버거 클릭 시) -->
+<div class="side-menu menu-hidden">
+	<button type="button" class="exit"><img src="assets/images/exit.svg" alt=""></button>
+	<ul>
+		<a href="index.html">
+			<li>About<div class="align-helper"></div></li></a>
+		<a href="work.html">
+			<li>Work<div class="align-helper"></div></li></a>
+		<a href="experinece.html">
+			<li>Experience<div class="align-helper"></div></li></a>
+		<a href="analyze.html">
+			<li>Analyze<div class="align-helper"></div></li></a>
+		<a href="contact.html">
+			<li>Contact<div class="align-helper"></div></li></a>
+	</ul>
+</div>
+
+
+<!-- 첫 화면 -->
+<section>
+	<div class="container">
+		<div class="main">
+			<div class="main-contents" style="	margin-top: -5rem;">
+				<div class="title-design">
+					<img class="design-gif" src="assets/images/bigger.gif" alt="">
+					<h1 style="display: inline-block;">하고</h1>
+				</div>
+				<h1  title="프론트엔드 개발자입니다"><span class="code-animation">&lt;h1&gt;<span class="is-white">웹개발</span>&lt;/h1&gt;</span>하는</h1>
+				<h1>기획자 민동규입니다.</h1>
+			</div>
+			<div>
+				<div class="scrolldown"">
+					<span>scroll down</span>
+					  <div class="mouse">
+					    <div class="ball"></div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</section>
+
+<!-- 모바일용 intro -->
+<section id="mobile-intro">
+
+	<div class="mobile-container">
+		<div></div>
+		<h1>민동규(reve)</h1>
+		
+		<div class="mobile-intro-detail">
+			<p>고려대학교 졸업<br>
+				<span>BSMS/컴퓨터학과/경영학과</span>
+			</p>
+			
+			<p>Career<br>
+				<span>N15, 한화그룹, 로엔ent 등</span>
+			</p>
+			
+			<p>Reward(17+)<br>
+				<span>부산국제광고제, summit awards 등</span>
+			</p>
+			
+			<p>Contact<br>
+				<span><a href="tel:+82 10 3180 9525" style="color: white">+82 10 3180 9525</a></span>
+			</p>
+		</div>
+		<a href="assets/images/DonggyuMin_KoreaUniv_resume.pdf" download><button type="button" class="download-button kopub is-light"> resume<img class="download-mobile" src="assets/images/download-white.svg" alt=""></button></a>
+	</div>
+</section>
+
+<!-- 그냥 intro -->
+
+<section class="intro">
+	<div class="container assets-align">
+		<div class="row">
+			<div class="col-xs-4 col-md-3 intro-left">
+				<div class="intro-title">
+					<h1 style="margin : 0 0 0.5rem 0;font-weight: 400;">안녕하세요</h1>
+					<h1 style="margin : 0 0 1rem 0;font-weight: 400;">민동규입니다.</h1>
+				
+				<ul class="sub info-detail">
+					<li>고려대학교 졸</li>
+					<li>본전공 : 		바이오시스템의과학부</li>
+					<li>이중전공 : 	컴퓨터학과</li>
+					<li>부전공 : 		경영학과</li>
+					<li><br></li>
+					<li>토익 : 		910 / 990</li>
+					<li>자격증 : 		정보처리기사</li>
+				</ul>	
+
+				</div>
+
+				<a href="assets/images/DonggyuMin_KoreaUniv_resume.pdf" download><button type="button" class="download-button kopub is-light"> resume<img class="download" src="assets/images/download-black.svg" alt=""></button></a>
+			</div>
+
+
+		<div class="col-xs-4 col-md-3">
+				<div class="info-title">
+					<p>Career(12+)</p>
+					<div class="align-helper"></div>
+					<div class="arrow-down" style=""></div>
+				</div>
+				<ul class="sub info-scroll">
+					<li><p>2018 브런치</p> <p>기업분석, 비즈니스 트렌드 분석</p> <p>(https://brunch.co.kr/@businessinsight)</p></li>
+
+					<li><p>2018 N15</p> <p>하드웨어 엑셀러레이터, SPINOFF : bananacoding</p> <p>웹퍼블리싱 강의 / 스핀오프회사에서 기획자로 근무</p></li>
+
+					<li><p>2017 한화그룹</p> <p>HMP 7기 콘텐츠기획 인턴</p> <p>V커머스/브랜드 콘텐츠 기획 및 제작</p></li>
+
+					<li><p>2017 하나와영</p> <p>고려대학교 소프트웨어학회</p> <p>프론트엔드, 파이썬등 스터디 운영/참가</p></li>
+
+					<li><p>2016 로엔엔터테인먼트</p> <p>카카오공동체팀 서비스 기획 인턴</p> <p>카카오 유저  멜론 유입전략 기획</p></li>
+
+					<li><p>2016 탈잉</p> <p>피피티 기획/제작 튜터</p> <p>누적 수강생 298명</p>
+					<li>
+
+					<li><p>2015 중국향 뷰티 MCN 메이미</p> <p>콘텐츠 기획자 및 디자이너</p> <p>중국 플랫폼 제작 및 콘텐츠 기획</p></li>
+
+					<li><p>2015 고려대학교 총학생회</p> <p>생활복지국장 / 축제 기획총괄</p> <p>과일판매, 귀신의 집 등 32개 사업 기획 및 집행</p></li>
+
+					<li><p>2015 대학생 궁 투어 프로젝트 역사어벤져스</p> <p>자체 기획사업, 기획멘토</p> <p>대학생 대상 경복궁 투어 프로젝트 멘토링</p></li>
+
+					<li><p>2014 고등학생 대상 대학생 강연 프로젝트 대고들이</p> <p>자체 기획사업, 기획총괄</p> <p>고등학교 강연 서비스 기획</p></li>
+
+					<li><p>2014 모두의 지도(현 그리드잇)</p> <p>여름 마케터</p> <p>모두의 지도 앱 활성화 방안 기획</p></li>
+
+					<li><p>2013 전화영어서비스 etalks</p> <p>창업</p> <p>창업 및 현지 강사와 커뮤니케이션 담당</p></li>
+				</ul>	
+			</div>
+
+			<div class="col-xs-4 col-md-3">
+				<div class="info-title">
+					<p>Rewards(17+)</p>
+					<div class="align-helper"></div>
+					<div class="arrow-down" style=""></div>
+				</div>
+				<ul class="sub info-scroll">
+					<li><p>2018 서울영상광고제</p><p>Young Creative Awards</p><p>은상 / 동상</p></li>
+					<li><p>2017 부산 국제 광고제</p><p>Film</p><p>Crystal(2)</p></li>
+					<li><p>2017 부산 국제 광고제</p><p>Interactive</p><p>Crystal</p></li>
+					<li><p>2017 Creativity International Awards</p><p>Presentation video</p><p>Platinum / Bronze</p></li>
+					<li><p>2017 Creativity international Awards</p><p>Apps-entertainment</p><p>Platinum</p></li>
+					<li><p>2017 Creativity international Awards</p><p>Ambient media</p><p>Bronze</p></li>
+					<li><p>2017 Summit international Awards</p><p>student single</p><p>Silver / Finalist</p></li>
+					<li><p>2016 향기의 미술관 공모전</p><p>Lago Design</p><p>동상</p></li>
+					<li><p>2016 SK 이노베이션 아이디어 페스티벌</p><p>SK Innovation</p><p>우수상</p></li>
+					<li><p>2016 대학생광고공모전</p><p>한국투자증권</p><p>동상</p></li>
+					<li><p>2016 착한광고공모전</p><p>대한적십자사</p><p>우수상</p></li>
+					<li><p>2016 Cosmetic Marketing Design Contest</p><p>데메테르(포시즌 라보라토리)</p><p>입선</p></li>
+				</ul>	
+			</div>
+
+
+		</div>
+	</div>
+</section>
+
+
+
+<section class="asset-1">
+	<div class="container assets-align">
+		<div class="asset-title">
+			<h2><span class = "is-bold" style="color: #ff088a; font-size: 3rem">1+2</span><br>
+			<b>기획자</b>를 사면 <b>개발자</b>와 <b>디자이너</b>를 드립니다.</h2>
+
+			<p>커뮤니케이션의 문제로 두번째 스타트업이 망가지는 걸 보고,<br>
+			디자인과 코딩을 배우기 시작했습니다.<br>
+			보다 디테일하고 효율적으로 기획/디자인/개발이 가능합니다.
+			</p>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="info-title">
+					<p>기획</p>
+					<div class="align-helper"></div>
+					<div class="arrow-down"></div>
+				</div>
+				<p class="sub info-detail">
+					고려대학교 경영학과(부) 졸<br><br>
+				브런치 기업전략 / 비즈니스 트렌드 분석 작가<br>
+				한화그룹 콘텐츠기획 인턴<br>
+				로엔ent 카카오공동체사업부 서비스기획인턴<br>
+				관련 수상경력 16회
+				</p>	
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="info-title">
+					<p>개발</p>
+					<div class="align-helper"></div>
+					<div class="arrow-down"></div>
+				</div>
+				<p class="sub info-detail">
+					고려대학교 컴퓨터학과(이중) 졸<br><br>
+				하드웨어 엑셀러레이터 N15 웹 퍼블리싱<br>
+				소프트웨어학회 하나와영 수료<br><br>
+				HTML / CSS / Javascript 등
+				</p>	
+			</div>
+
+			<div class="col-lg-4 col-sm-6">
+				<div class="info-title">
+					<p>디자인</p>
+					<div class="align-helper"></div>
+					<div class="arrow-down"></div>
+				</div>
+				<p class="sub info-detail">
+					하드웨어 엑셀러레이터 N15 웹 퍼블리싱<br>
+				스타트업 mayme 디자이너<br>
+				재능공유 플랫폼 탈잉 PPT강의 누적 수강생 291명<br><br>
+				일러스트레이터, 포토샵, 스케치 등
+				</p>	
+			</div>
+		</div>
+	</div>
+
+
+</section>
+<hr>
+
+
+<section class="asset-2">
+		<div class="container assets-align">
+		<div class="asset-title">
+			<h2><span class = "is-bold" style="color: #ff088a; font-size: 3rem">성공병말기</span><br>
+			<b>게임 캐릭터</b>키우기 마냥, 스스로를 <b>성장</b>시키는걸 좋아합니다.</h2>
+
+			<p>성공의 핑계를 만들기 위해 브런치에 기업 분석 글을 쓰고 있습니다.<br>
+				학습이 습관이기에 변화에 익숙합니다.
+			</p>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="info-title">
+					<p>Brunch</p>
+					<div class="align-helper"></div>
+					<div class="arrow-down"></div>
+				</div>
+				<ul class="sub info-detail">
+					<li>누적 조회 수 : <span class="counter">120,139</span>회</li>
+					<li>누적 공유 수 : <span class="counter">339</span>회</li>
+					<li>누적 구독자 수 : <span class="counter">476</span>명</li>	
+					<li>누적 글 개수 : <span class="counter">37</span>개</li>
+					<li>게시글 최대 조회 수 : <span class="counter">33,414</span>회</li>
+					<li><br></li>
+					<li><a href="brunch.html">게시글 보기</a></li>
+				</ul>	
+			</div>
+		</div>
+
+		<img id="brunch01" style="" src="assets/images/brunch-01.png" alt="">
+		<img id="brunch02" style="" src="assets/images/brunch-02.png" alt="">
+		<img id="brunch03" style="" src="assets/images/brunch-03.png" alt="">
+	
+
+	</div>
+
+</section>
+
+<hr>
+
+<section class="contact">
+	<div class="container">
+		<div>
+		<h1>살려주세요.<br>
+			<span class="code-animation date">
+				<span class="left-month">1</span>개월
+				<span class="left-date">23</span>일
+				<span class="left-hour">22</span>시간
+				<span class="left-minute">11</span>분
+				<span class="left-second">5</span>초 뒤면</span><br>
+			저는 군대를 가야합니다.</h1>
+
+			<p style="color: grey;">#저렴하게_모십니다. #날짜는_현역_TO재배정일_기준</p>
+
+			<ul>
+				<li>phone : <a href="tel:+82 10 3180 9525">+ 82 10 3180 9525</a></li>
+				<li>email : <a href="mailto:23geeek@gmail.com">23geeek@gmail.com</a></li>
+				<li>facebook : <a href="https://facebook.com/reveinsight">facebook.com/reveinsight</a></li>
+				<li>brunch : <a href="https://brunch.co.kr/@businessinsight">brunch.co.kr/@businessinsight</a></li>
+			</ul>	
+			</div>
+	</div>
+
+</section>
+<footer>
+	<div class="container">
+		<p style="font-size: 2.3rem; padding-bottom: 1.5rem">
+			<span style="opacity: 1;">연</span>
+			<span style="opacity: 0.85;">락</span>
+			<span style="opacity: 0.7;">주</span>
+			<span style="opacity: 0.55;">세</span>
+			<span style="opacity: 0.4;">요</span>
+			<span style="opacity: 0.25;">제</span>
+			<span style="opacity: 0.1;">발</span>
+		</p>
+
+		<a href="tel : +82 10 3180 9525">
+			<div class="footer-button">
+				<img src="assets/images/call-logo.svg" alt=""> <p style="color: white">+82 10 3180 9525</p> <div class="align-helper"></div>
+			</div>
+		</a>
+
+		<a href="mailto:23geeek@gmail.com">
+			<div class="footer-button">
+				<img src="assets/images/mail-logo.svg" alt=""> <p style="color: white">23geeek@gmail.com </p><div class="align-helper"></div>
+			</div>
+		</a>
+
+	</div>
+</footer>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/function.js"></script>
+	<script src="assets/js/about.js"></script>
+</body>
+</html>
+
+
+
+
+
